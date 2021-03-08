@@ -1,0 +1,14 @@
+# server酱：https://sct.ftqq.com/
+serverChan:
+  secret: SCT15665TJKOcMpEdZ   # 密钥
+
+# 指标申请人，可以填写多个
+applicant:
+  - name: 张三                                 # 申请人真实姓名
+    nickname: zhangsan                        # 申请人昵称，推送到微信时会显示改昵称
+    code: 1234102865678                       # 申请人申请编码
+  - name: 王五
+    nickname: wangwu
+    code: 1234567897899
+
+cron: '0 0 8 27,28,29 * *'                    # cron表达式，可以自定义时间
