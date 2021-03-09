@@ -11,7 +11,7 @@ Indicator是一个由go编写，可以定时推送中签结果到微信的服务
 
 ## 效果
 
-![GrhP6Ka5EAB9stD](https://i.loli.net/2021/03/08/GrhP6Ka5EAB9stD.png)
+![O4lN3ijeJyUF1hH](https://i.loli.net/2021/03/09/O4lN3ijeJyUF1hH.png)
 
 ## 功能
 - 支持直接推送中签结果到微信
