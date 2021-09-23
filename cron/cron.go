@@ -32,7 +32,7 @@ func Run() {
 		if res {
 			msg = "%s, 你中签了！！！"
 		} else {
-			msg = "%s, 这次又没有中啊"
+			msg = "%s, 这次又没有中啊..."
 		}
 		content := fmt.Sprintf(msg, a.Nickname)
 		//推送消息到微信

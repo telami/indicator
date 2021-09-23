@@ -9,7 +9,7 @@ import (
 
 const CarIndicatorUrl = "http://apply.xkctk.jtys.tj.gov.cn/apply/norm/personQuery.html"
 
-// 恭喜，中签！
+// Congratulate 恭喜，中签！
 func Congratulate(code string, name string) bool {
 	res := GetIndicatorInfo(code)
 	if strings.Contains(res, name) {
@@ -18,7 +18,7 @@ func Congratulate(code string, name string) bool {
 	return false
 }
 
-// 请求网站数据
+// GetIndicatorInfo 请求网站数据
 func GetIndicatorInfo(appleCode string) string {
 
 	params := url.Values{}
