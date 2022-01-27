@@ -66,6 +66,12 @@ nohup ./indicator &
 
 tail -f nohup.out
 ```
+
+## 后记
+兄弟们，我改成竞拍了，现在牌子已经上完了
+
+![gKmADx](http://cdn.telami.cn/uPic/gKmADx.png)
+
 ## 鸣谢
 [Go](https://github.com/golang/go)
 
